@@ -1,9 +1,14 @@
 # Electric Heating Pad
-<img src="Heating Pad Circuit.png" width="600" height="400">
+<figure>
+  <img src="Heating Pad Circuit.png" alt="Circuit Diagram" style="width:75%">
+  <figcaption>Circuit diagram. The resistor on the breadboard represents the heating pad component.</figcaption>
+</figure>
+
 <a href="https://www.tinkercad.com/things/876OW5vUT7l-mouse-heating-pad-potentiometer">View circuit diagram in Tinkercad</a>
-<br><br/>
-This repository contains code and instructions for building a feedback-controlled heating pad to regulate a mouse's body temperature while 
+<p>
+  This repository contains code and instructions for building a feedback-controlled heating pad to regulate a mouse's body temperature while 
 it is under anesthesia. The device monitors the mouse's body temperature, and supplies heat accordingly to maintain a temperature within a comfortable range.
+</p>
 
 Author(s): Alvin Adjei, University of California San Francisco
 
