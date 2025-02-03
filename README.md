@@ -1,4 +1,7 @@
 # Electric Heating Pad
+
+<img src=heating_pad.jpeg width=50%>
+
 <p>
   This repository contains code and circuit diagram for building a feedback-controlled heating pad to regulate a mouse's body temperature while 
 it is under anesthesia. The device monitors the mouse's body temperature, and supplies heat accordingly to maintain a temperature within a comfortable range.
