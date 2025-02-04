@@ -34,7 +34,7 @@ Author(s): Alvin Adjei, University of California San Francisco
   </a>
 - 1 $\times$
   <a href="https://www.sunfounder.com/collections/lcd-display/products/i2c-lcd1602-module">
-    Arduino LCD display
+    SunFounder LCD1602 Display Module
   </a>
 
 ## Assembly
