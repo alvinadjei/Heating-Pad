@@ -13,7 +13,7 @@ Author(s): Alvin Adjei, University of California San Francisco
 
 - 1 $\times$
   <a href="https://store.arduino.cc/products/arduino-uno-rev3?srsltid=AfmBOophdIvm8RfX5799wr4zovlr1sxV1jH-H7QClWuCym0v6gZN2AgC">
-    Arudino Uno
+    Arduino Uno
   </a>
   or similar microcontroller (we used an
   <a href="https://www.adafruit.com/product/2488">
