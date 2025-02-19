@@ -6,8 +6,8 @@ LiquidCrystal_I2C lcd(0x27,16,2);  // set the LCD address to 0x27 for a 16 chars
 const int heatPin = 11; // pin that controls the heating pad
 const int tempPin = A0; // pin that reads temp sensor value
 const int potPin = A1; // pin that reads potentiometer value
-const int sensorVoltage = 5.0; // mV; if temp sensor is plugged into the 5.5V pin
-// const int sensorVoltage = 3.3; // mV; if temp sensor is plugged into the 3.3V pin
+const float sensorVoltage = 5.0; // mV; if temp sensor is plugged into the 5.5V pin
+// const float sensorVoltage = 3.3; // mV; if temp sensor is plugged into the 3.3V pin
 
 // Bounds between which to keep mouse body temp (36.6 +/- 0.5)
 const float lowerBound = 36.1;
@@ -58,7 +58,7 @@ void loop() {
   }
   
   // Failsafe:
-  if ((degreesC < 20 && heat < 100) || (degreesC > 40.0 && heat > 200)) { // Mouse is way too cold or hot
+  if ((degreesC < 20 && heat < 155) || (degreesC > 40.0 && heat > 155)) { // Mouse is way too cold or hot
     heat = 155;
   }
   
@@ -67,7 +67,7 @@ void loop() {
   float pot_norm = pot / 1023.0;
 
   // Control actualHeat value with potentiometer (failsafe)
-  float actualHeat = heat * pot_norm;
+  int actualHeat = (int)(heat * pot_norm);
 
   analogWrite(heatPin, actualHeat); // Send appropriate heat level to heating pad
 
@@ -76,20 +76,20 @@ void loop() {
 
   // Print to LCD display
   lcd.setCursor(0, 0);
-  lcd.print("Heat input: ");
+  lcd.print("Heat:");
   lcd.print(heatDisplay);
+  lcd.print("% ");
+  lcd.print("Pot:");
+  lcd.print((int)(pot_norm * 100));
   lcd.print("%");
   lcd.setCursor(0, 1);
   lcd.print("Temp: ");
   lcd.print(degreesC);
   lcd.print(" C");
 
-  // Print to serial output
-  
   Serial.print("Heat: ");
   Serial.print(heatDisplay);
-  Serial.print("%");
-  Serial.print("\n");
+  Serial.println("%");
 
   Serial.print("ADC Reading: ");
   Serial.print(reading);
