@@ -47,4 +47,9 @@ Author(s): Alvin Adjei, University of California San Francisco
   </figcaption>
 </figure>
 <br><br>
-<img src="Heating Pad Schematic.png" alt="Circuit Schematic" style="width:66%">
+<figure>
+  <img src="Heating Pad Schematic.png" alt="Circuit Schematic" style="width:66%">
+  <figcaption>
+    Circuit schematic.
+  </figcaption>
+</figure>
