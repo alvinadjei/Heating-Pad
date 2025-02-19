@@ -40,8 +40,9 @@ Author(s): Alvin Adjei, University of California San Francisco
 ## Assembly
 
 <figure>
-  <img src="Heating Pad Circuit.png" alt="Circuit Diagram" style="width:75%">
+  <img src="Heating Pad Diagram.png" alt="Circuit Diagram" style="width:75%">
   <figcaption>Circuit diagram. The resistor on the breadboard represents the heating pad component.</figcaption>
+  <img src="Heating Pad Schematic.pdf" alt="Circuit Schematic" style="width:75%">
 </figure>
 
 <a href="https://www.tinkercad.com/things/876OW5vUT7l-mouse-heating-pad-potentiometer">View circuit diagram in Tinkercad</a>
