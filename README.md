@@ -1,6 +1,6 @@
 # Electric Heating Pad
 
-<img src=heating_pad.jpeg alt="Heating pad circuitry " width=50%>
+<img src=heating_pad.jpeg alt="Heating pad circuitry " width=66%>
 
 <p>
   This repository contains code and circuit diagram for building a feedback-controlled heating pad to regulate a mouse's body temperature while 
@@ -40,9 +40,11 @@ Author(s): Alvin Adjei, University of California San Francisco
 ## Assembly
 
 <figure>
-  <img src="Heating Pad Diagram.png" alt="Circuit Diagram" style="width:75%">
-  <figcaption>Circuit diagram. The resistor on the breadboard represents the heating pad component.</figcaption>
-  <img src="Heating Pad Schematic.png" alt="Circuit Schematic" style="width:75%">
+  <img src="Heating Pad Diagram.png" alt="Circuit Diagram" style="width:66%">
+  <figcaption>
+    Circuit diagram. The resistor on the breadboard represents the heating pad component.
+    View circuit diagram in <a href="https://www.tinkercad.com/things/876OW5vUT7l-mouse-heating-pad-potentiometer">Tinkercad</a>.
+  </figcaption>
 </figure>
-
-<a href="https://www.tinkercad.com/things/876OW5vUT7l-mouse-heating-pad-potentiometer">View circuit diagram in Tinkercad</a>
+<br><br>
+<img src="Heating Pad Schematic.png" alt="Circuit Schematic" style="width:66%">
